@@ -1,0 +1,58 @@
+{
+  "name": "datingmatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-datingmatch/datingmatch-backend.git"
+  },
+  "author": "ravi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-datingmatch/datingmatch-backend/issues"
+  },
+  "homepage": "https://github.com/dev-datingmatch/datingmatch-backend#readme",
+  "dependencies": {
+    "@google-ai/generativelanguage": "^2.0.1",
+    "@google/generative-ai": "^0.2.1",
+    "astro": "^4.4.12",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.0",
+    "chalk": "^5.0.1",
+    "cloudinary": "^1.30.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "datauri": "^4.1.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "helmet": "^5.1.1",
+    "http-status": "^1.6.2",
+    "image-thumbnail": "^1.0.15",
+    "indian-astrology": "^1.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "lunarphase-js": "^2.0.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.5.2",
+    "mooncalc": "^1.0.7",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.3",
+    "node-gcm": "^1.1.3",
+    "nodemailer": "^6.9.13",
+    "path": "^0.12.7",
+    "ry": "^0.1.0",
+    "socket.io": "^4.5.1",
+    "stripe": "^15.5.0",
+    "update": "^0.7.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "nodemon": "^2.0.7"
+  }
+}
